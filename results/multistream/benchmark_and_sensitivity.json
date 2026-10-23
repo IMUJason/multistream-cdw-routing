@@ -1,0 +1,507 @@
+{
+  "benchmark": {
+    "multi_single": {
+      "cost_MCNY": -45.68,
+      "certified_pct": 46.2,
+      "fill_pct": 48.6,
+      "to_plant_Mt": 2.523,
+      "plants": 4
+    },
+    "multi_dual": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "homogeneous_attributes_outlets_kept": {
+      "single": {
+        "cost_MCNY": -45.68,
+        "certified_pct": 46.2,
+        "fill_pct": 48.6,
+        "to_plant_Mt": 2.523,
+        "plants": 4
+      },
+      "dual": {
+        "cost_MCNY": -11.85,
+        "certified_pct": 0.0,
+        "fill_pct": 92.6,
+        "to_plant_Mt": 0.0,
+        "plants": 0
+      }
+    },
+    "single_flow_no_stream_outlets": {
+      "merged_b_avg": 0.0621,
+      "merged_c_avg": 0.5691,
+      "single": {
+        "cost_MCNY": 12.71,
+        "certified_pct": 60.4,
+        "fill_pct": 0.0,
+        "to_plant_Mt": 3.3,
+        "plants": 4
+      },
+      "dual": {
+        "cost_MCNY": 147.57,
+        "certified_pct": 0.0,
+        "fill_pct": 0.0,
+        "to_plant_Mt": 0.0,
+        "plants": 0
+      }
+    }
+  },
+  "price_cost_grid": [
+    [
+      {
+        "price_mult": 0.8,
+        "cost_mult": 0.5,
+        "blend": {
+          "cost_MCNY": -32.86,
+          "certified_pct": 31.5,
+          "fill_pct": 64.9,
+          "to_plant_Mt": 1.72,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -24.27,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 8.59
+      },
+      {
+        "price_mult": 0.8,
+        "cost_mult": 1.0,
+        "blend": {
+          "cost_MCNY": -27.59,
+          "certified_pct": 19.9,
+          "fill_pct": 77.8,
+          "to_plant_Mt": 1.088,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -22.83,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 4.76
+      },
+      {
+        "price_mult": 0.8,
+        "cost_mult": 2.0,
+        "blend": {
+          "cost_MCNY": -20.96,
+          "certified_pct": 11.4,
+          "fill_pct": 87.2,
+          "to_plant_Mt": 0.625,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -19.97,
+          "certified_pct": 6.5,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.357,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 0.99
+      }
+    ],
+    [
+      {
+        "price_mult": 1.0,
+        "cost_mult": 0.5,
+        "blend": {
+          "cost_MCNY": -56.52,
+          "certified_pct": 60.4,
+          "fill_pct": 32.8,
+          "to_plant_Mt": 3.3,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -27.8,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 28.72
+      },
+      {
+        "price_mult": 1.0,
+        "cost_mult": 1.0,
+        "blend": {
+          "cost_MCNY": -45.68,
+          "certified_pct": 46.2,
+          "fill_pct": 48.6,
+          "to_plant_Mt": 2.523,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -26.36,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 19.32
+      },
+      {
+        "price_mult": 1.0,
+        "cost_mult": 2.0,
+        "blend": {
+          "cost_MCNY": -30.77,
+          "certified_pct": 22.0,
+          "fill_pct": 75.4,
+          "to_plant_Mt": 1.203,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -23.49,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 7.28
+      }
+    ],
+    [
+      {
+        "price_mult": 1.2,
+        "cost_mult": 0.5,
+        "blend": {
+          "cost_MCNY": -89.07,
+          "certified_pct": 60.4,
+          "fill_pct": 32.8,
+          "to_plant_Mt": 3.3,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -31.35,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.363,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 57.72
+      },
+      {
+        "price_mult": 1.2,
+        "cost_mult": 1.0,
+        "blend": {
+          "cost_MCNY": -75.87,
+          "certified_pct": 60.4,
+          "fill_pct": 32.8,
+          "to_plant_Mt": 3.3,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -29.9,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.363,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 45.97
+      },
+      {
+        "price_mult": 1.2,
+        "cost_mult": 2.0,
+        "blend": {
+          "cost_MCNY": -51.06,
+          "certified_pct": 47.9,
+          "fill_pct": 46.7,
+          "to_plant_Mt": 2.616,
+          "plants": 4
+        },
+        "segregate": {
+          "cost_MCNY": -27.02,
+          "certified_pct": 6.6,
+          "fill_pct": 92.6,
+          "to_plant_Mt": 0.358,
+          "plants": 4
+        },
+        "cost_gap_MCNY": 24.04
+      }
+    ]
+  ],
+  "fines_scaling": {
+    "definition": "all stream fines shares multiplied by s",
+    "curve": {
+      "0.05": 0.1005,
+      "0.1": 0.0681,
+      "0.15": 0.0206,
+      "0.2": 0.0092,
+      "0.25": 0.001,
+      "0.3": 0.0005,
+      "0.5": 0.0,
+      "1.0": 0.0
+    },
+    "s_largest_feasible": 0.251,
+    "s_smallest_infeasible": 0.251,
+    "note": "composition sensitivity only; no washing yield/cost modelled"
+  },
+  "robustness": {
+    "rho_e_0.52": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "rho_e_0.70": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "rho_e_0.90": {
+      "cost_MCNY": -12.6,
+      "certified_pct": 0.8,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.072,
+      "plants": 4
+    },
+    "rho_e_0.96": {
+      "cost_MCNY": -16.07,
+      "certified_pct": 3.7,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.332,
+      "plants": 4
+    },
+    "kappa2_x2": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "kappa2_x4": {
+      "cost_MCNY": -11.92,
+      "certified_pct": 0.1,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.009,
+      "plants": 4
+    },
+    "kappa2_x6": {
+      "cost_MCNY": -13.24,
+      "certified_pct": 1.4,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.12,
+      "plants": 4
+    },
+    "kappa2_x8": {
+      "cost_MCNY": -19.48,
+      "certified_pct": 4.8,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.336,
+      "plants": 4
+    },
+    "seed_certified_pct": [
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2,
+      46.2
+    ],
+    "seed_certified_pct_dual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "demand_x0.5": {
+      "cost_MCNY": -38.43,
+      "certified_pct": 31.1,
+      "fill_pct": 65.3,
+      "to_plant_Mt": 1.702,
+      "plants": 4
+    },
+    "demand_x1.5": {
+      "cost_MCNY": -50.4,
+      "certified_pct": 47.2,
+      "fill_pct": 47.4,
+      "to_plant_Mt": 2.58,
+      "plants": 4
+    },
+    "demand_x0.5_dual": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "demand_x1.5_dual": {
+      "cost_MCNY": -11.85,
+      "certified_pct": 0.0,
+      "fill_pct": 92.6,
+      "to_plant_Mt": 0.0,
+      "plants": 0
+    },
+    "dual_minrec60": {
+      "cost_MCNY": 142.43,
+      "certified_pct": 0.0,
+      "fill_pct": 39.9,
+      "to_plant_Mt": 2.951,
+      "plants": 4
+    }
+  },
+  "sensitivity_variants": {
+    "kappa2_eexc_grid": [
+      [
+        {
+          "kp_mult": 1,
+          "e_exc": 0.6,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 1,
+          "e_exc": 0.45,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 1,
+          "e_exc": 0.3,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 1,
+          "e_exc": 0.15,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        }
+      ],
+      [
+        {
+          "kp_mult": 2,
+          "e_exc": 0.6,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 2,
+          "e_exc": 0.45,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 2,
+          "e_exc": 0.3,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        },
+        {
+          "kp_mult": 2,
+          "e_exc": 0.15,
+          "certified_pct": 0.0,
+          "cost_MCNY": -11.85
+        }
+      ],
+      [
+        {
+          "kp_mult": 4,
+          "e_exc": 0.6,
+          "certified_pct": 0.1,
+          "cost_MCNY": -11.92
+        },
+        {
+          "kp_mult": 4,
+          "e_exc": 0.45,
+          "certified_pct": 0.1,
+          "cost_MCNY": -11.92
+        },
+        {
+          "kp_mult": 4,
+          "e_exc": 0.3,
+          "certified_pct": 0.1,
+          "cost_MCNY": -11.92
+        },
+        {
+          "kp_mult": 4,
+          "e_exc": 0.15,
+          "certified_pct": 0.3,
+          "cost_MCNY": -12.01
+        }
+      ],
+      [
+        {
+          "kp_mult": 6,
+          "e_exc": 0.6,
+          "certified_pct": 1.4,
+          "cost_MCNY": -13.24
+        },
+        {
+          "kp_mult": 6,
+          "e_exc": 0.45,
+          "certified_pct": 1.4,
+          "cost_MCNY": -13.25
+        },
+        {
+          "kp_mult": 6,
+          "e_exc": 0.3,
+          "certified_pct": 1.4,
+          "cost_MCNY": -13.25
+        },
+        {
+          "kp_mult": 6,
+          "e_exc": 0.15,
+          "certified_pct": 1.7,
+          "cost_MCNY": -14.46
+        }
+      ]
+    ],
+    "indicator_variant": {
+      "single": {
+        "cost_MCNY": -45.6801,
+        "certified_pct": 46.17,
+        "wall_s": 0.007
+      },
+      "dual": {
+        "cost_MCNY": -11.8548,
+        "certified_pct": 0.0,
+        "wall_s": 0.007
+      }
+    },
+    "single_grade_per_line": {
+      "cost_MCNY": -43.86,
+      "certified_pct": 37.0,
+      "fill_pct": 58.8
+    },
+    "demand_grid": {
+      "x0.25": {
+        "certified_pct": 15.6,
+        "cost_MCNY": -32.46
+      },
+      "x0.5": {
+        "certified_pct": 31.1,
+        "cost_MCNY": -38.43
+      },
+      "x1.5": {
+        "certified_pct": 47.2,
+        "cost_MCNY": -50.4
+      },
+      "x2.0": {
+        "certified_pct": 60.4,
+        "cost_MCNY": -53.72
+      }
+    }
+  }
+}
