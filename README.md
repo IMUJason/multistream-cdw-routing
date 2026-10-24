@@ -1,11 +1,11 @@
 # Multi-stream CDW routing under grade certification — minimal reproducibility package
 
 Code and stored results for reproducing the computational study
-"Quality-constrained routing of multi-stream construction and
-demolition waste under certification standards" (operations-mode
-model: nine district generation nodes, four existing recycling plants,
-two processing technologies, six product grades, certification caps on
-masonry and fines content of the blended product).
+"To blend or to segregate: quality-constrained routing of multi-stream
+construction and demolition waste under certification standards"
+(operations-mode model: nine district generation nodes, four existing
+recycling plants, two processing technologies, six product grades,
+certification caps on masonry and fines content of the blended product).
 
 ## Contents
 
@@ -74,8 +74,8 @@ solver's default tolerances.
 | Study element | Runner | Stored result |
 |---|---|---|
 | Blend/segregate x cap-regime matrix (Table 3) | run_experiments (block A) | comprehensive_results.json ["A"] |
-| Stream-share sweep (Fig. 3b) | run_experiments (block B) | comprehensive_results.json ["B"] |
-| Disposal-fee sweep (Fig. 3a) | run_experiments (block D) | comprehensive_results.json ["D"] |
+| Stream-share sweep (Fig. 4b) | run_experiments (block B) | comprehensive_results.json ["B"] |
+| Disposal-fee sweep (Fig. 4a) | run_experiments (block D) | comprehensive_results.json ["D"] |
 | Representation benchmarks (Table 3, rows 5-8) | run_benchmarks (block 1) | benchmark_and_sensitivity.json ["benchmark"] |
 | Paired price-cost grid (Table 5) | run_benchmarks (block 2) | benchmark_and_sensitivity.json ["price_cost_grid"] |
 | Fines-composition scaling + bisection | run_benchmarks (block 3) | benchmark_and_sensitivity.json ["fines_scaling"] |
