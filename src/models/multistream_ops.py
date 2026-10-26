@@ -24,13 +24,15 @@ class MultiStreamOps:
     """Operations-mode multi-stream model with existing facilities."""
 
     def __init__(self, inst, enforce_spec=True, dual_attr=False,
-                 min_recycling=0.0, tight_m=False, indicator=False):
+                 min_recycling=0.0, tight_m=False, indicator=False,
+                 fill_value=5.0):
         self.inst = inst
         self.enforce_spec = enforce_spec
         self.dual_attr = dual_attr
         self.min_recycling = min_recycling
         self.tight_m = tight_m
         self.indicator = indicator
+        self.fill_value = fill_value
         self._build()
 
     def _build(self):
@@ -71,7 +73,7 @@ class MultiStreamOps:
         self.w, self.p, self.r = w, p, r
 
         phi = I["landfill_fee"]
-        fill_value = 5.0  # CNY/t net benefit of direct fill vs landfill
+        fill_value = self.fill_value  # CNY/t net benefit of direct fill
         obj = 0.0
 
         for f in range(F):

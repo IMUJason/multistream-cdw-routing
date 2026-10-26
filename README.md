@@ -26,6 +26,9 @@ scripts/run_benchmarks.py       representation benchmarks (attribute
 scripts/run_sensitivity_variants.py  two-dimensional proxy/e_exc
                                 sweep, indicator formulation, single-
                                 grade-per-line, demand multipliers
+scripts/run_scale_fill.py        synthetic 27-site/8-plant scale test
+                                (big-M vs indicator) and direct-fill
+                                credit sweep
 scripts/diag_bound_structure.py LP relaxation decomposition with
                                 programmatically asserted variable
                                 types, incl. tightened big-M variants
@@ -81,6 +84,7 @@ solver's default tolerances.
 | Fines-composition scaling + bisection | run_benchmarks (block 3) | benchmark_and_sensitivity.json ["fines_scaling"] |
 | Robustness block (removal rates, proxy multipliers, seeds, demand, dual intake) | run_benchmarks (block 4) | benchmark_and_sensitivity.json ["robustness"] |
 | Two-dimensional proxy/e_exc sweep, indicator formulation, single-grade restriction, demand multipliers | run_sensitivity_variants | benchmark_and_sensitivity.json ["sensitivity_variants"] |
+| Scale test (27 sites, 8 plants) and fill-credit sweep | run_scale_fill | scale_and_fill.json |
 | Relaxation decomposition and tight-M comparison | diag_bound_structure | bound_structure.json |
 
 ## Data provenance

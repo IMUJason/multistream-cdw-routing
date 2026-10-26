@@ -1,0 +1,60 @@
+{
+  "scale_test": {
+    "sites": 27,
+    "plants": 8,
+    "single": {
+      "cost_MCNY": -100.53,
+      "certified_pct": 20.8,
+      "variables": 1628,
+      "binaries": 112,
+      "constraints": 415,
+      "wall_s": 0.019
+    },
+    "dual": {
+      "cost_MCNY": -35.56,
+      "certified_pct": 0.0,
+      "variables": 1628,
+      "binaries": 112,
+      "constraints": 511,
+      "wall_s": 0.018
+    },
+    "indicator_single": {
+      "cost_MCNY": -100.53,
+      "certified_pct": 20.8,
+      "variables": 1628,
+      "binaries": 112,
+      "constraints": 415,
+      "wall_s": 0.037
+    }
+  },
+  "fill_value_sweep": [
+    {
+      "vfill": 0.0,
+      "cost_MCNY": -35.25,
+      "certified_pct": 60.4,
+      "fill_pct": 32.8,
+      "wall_s": 0.009
+    },
+    {
+      "vfill": 5.0,
+      "cost_MCNY": -45.68,
+      "certified_pct": 46.2,
+      "fill_pct": 48.6,
+      "wall_s": 0.008
+    },
+    {
+      "vfill": 10.0,
+      "cost_MCNY": -59.95,
+      "certified_pct": 31.5,
+      "fill_pct": 64.9,
+      "wall_s": 0.008
+    },
+    {
+      "vfill": 15.0,
+      "cost_MCNY": -77.57,
+      "certified_pct": 19.9,
+      "fill_pct": 77.8,
+      "wall_s": 0.043
+    }
+  ]
+}
